@@ -14,7 +14,7 @@ These days I work extensively with the following and more:
 * Kubernetes: AWS EKS
 * CI/CD: ArgoCD, CodeFresh, and GitHub Actions
 * Language(s): Go
-* Databases: AWS RDS
+* Databases: AWS RDS, DynamoDB
 * Cache engines: ElastiCache
 * IaC: Terraform
 * Managing Secrets: Vault, vault-injector, External Secrets Operator
@@ -50,7 +50,7 @@ Testing infrastructure
 
 Progressive delivery
 * ArgoCD
-* Argocd Rollouts
+* Argo Rollouts
 * FluxCD
 
 Observability
@@ -62,6 +62,7 @@ Observability
 Infrastructure as Code
 * Crossplane
 * Terraform
+* Pulumi
 
 Governance & policies
 * OPA, Kyverno, AWS SCP
