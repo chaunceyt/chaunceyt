@@ -17,8 +17,48 @@ These days I work extensively with the following and more:
 * Databases: AWS RDS, DynamoDB
 * Cache engines: ElastiCache
 * IaC: Terraform
+* Scaling: KEDA, and Karpenter
 * Managing Secrets: Vault, vault-injector, External Secrets Operator
 * Observability: Prometheus, Grafana, NewRelic, Cloudwatch
+* Tooling: kubebuilder, skaffold, goreleaser, golangci-lint, govulncheck, gosec, betteralign, staticcheck, revive, identypo, nakedret, checkov, trivy, copa, syft, grype, semgrep, tfsec, gitleaks, trufflehog, and more.
+
+
+## Diverse roles I've held
+
+### Senior Cloud Engineer
+* Built Kubernetes Operators using Go.
+* Built Microservice and API using Go
+
+### Software Architect
+
+* Used Drupal to develop Content Management Systems
+* Used Drupal, Wordpress, Zend framework, and CakePhp to develop various web applications.
+
+
+### GKE Kubernetes Cluster administrator
+* Lead cluster migration from OpenStack VMs to GKE and GitLab for CI.
+* Maintained a set of helm charts responsible for the workloads created from the Gitlab CI process. That task inspired this WebProject [Operator](https://github.com/chaunceyt/webproject-operator).
+* Provided support for: Docker, Docksal, Apache, PHP, NodeJS, Gatsby, Mysql, Mariadb, Redis, Memcached, Varnish, Solr and a number of other tools. As a result of using Redis for years, I created this simple [operator](https://github.com/chaunceyt/redis-operator)
+
+### Platform Architect
+* Maintained compute infrastructure using Ansible as configuration management tool.
+* Implemented the CI/CD automation and managed the deployment of software and configuration to production environments.
+* Performed planned and unplanned failover to standby data centers testing disaster recovery plan runsheet
+* Maintained a number Teleport clusters ([notes](https://github.com/chaunceyt/teleport) I keep about this tool as I was learning to manage it)
+
+### Release Manager
+* Built infra that monitored commits to master for multiple Git repos and backported that to other environments using automation.
+* Managed the hand-off of code for upcoming production releases developed by various teams.
+* Communicated with internal and external stakeholders about the completion of application distributions.
+
+### Tech Lead/InfraOps support
+* Provided GitLab CI and operation support for project teams.
+* Developed AWS Cloudformation templates used to provision the AWS infrastructure. 
+* Responsible for the day-to-day maintenance of multiple project AWS environments running workloads using ECS, Aurora Mariadb, EFS, Redis ElastiCache, API Gateway, and Lambda.
+* Responsible for code and/or configuration deployments to multiple client production environments.
+* Performed full client site migrations to/from Blackmesh/Contegix, Acquia, Pantheon, and AWS.
+* Developed Ansible roles responsible for managing the configuration of production VMs
+
 
 ## Formal education and certifications include:
 
@@ -30,9 +70,14 @@ These days I work extensively with the following and more:
 
 ### What's on my Radar?
 
+Large Language Model(s) (LLM)
+* Primary focus [using llms](https://github.com/chaunceyt/using-llms) locally using Ollama.
+* Using K8sgpt's cli and operator as the SRE for Kubernetes clusters
+* Using kubebuilder to create a **LLM as a Service** using Ollama to provide the API for interacting with LLMs
+
 Cloud Environments
 
-* AWS
+* AWS (primary focus)
 * Google Cloud
 * Azure
 
@@ -94,6 +139,3 @@ Tools I've deployed to Kubernetes clusters and think should installed
 * CloudNativePG (CNPG)
 * Knative serving
 
-Large Language Model(s) (LLM)
-* Primary focus [using llms](https://github.com/chaunceyt/using-llms) locally using Ollama.
-* K8sgpt cli and operator
